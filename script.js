@@ -214,13 +214,36 @@ ${message}
         });
       });
 
-       // =========================
-      // Auto-Year Update
       // =========================
+// MOBILE NAVIGATION
+// =========================
 
-      const yearEl = document.getElementById("year");
+const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+const mobileNav = document.querySelector(".nav-links");
 
-if (yearEl) {
-  yearEl.textContent = new Date().getFullYear();
+if (mobileMenuBtn && mobileNav) {
+  mobileMenuBtn.addEventListener("click", () => {
+    mobileMenuBtn.classList.toggle("active");
+    mobileNav.classList.toggle("active");
+  });
+
+  // CLOSE MENU WHEN LINK IS CLICKED
+  document.querySelectorAll(".nav-links a").forEach((link) => {
+    link.addEventListener("click", () => {
+      mobileMenuBtn.classList.remove("active");
+      mobileNav.classList.remove("active");
+    });
+  });
+
+  // CLOSE ON OUTSIDE CLICK
+  document.addEventListener("click", (event) => {
+    const isInsideNav = mobileNav.contains(event.target);
+    const isButton = mobileMenuBtn.contains(event.target);
+
+    if (!isInsideNav && !isButton) {
+      mobileMenuBtn.classList.remove("active");
+      mobileNav.classList.remove("active");
+    }
+  });
 }
 
