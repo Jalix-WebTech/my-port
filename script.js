@@ -1,4 +1,4 @@
-
+console.log("script loaded successfully");
       // =========================
       // SMOOTH SECTION SCROLLING
       // =========================
