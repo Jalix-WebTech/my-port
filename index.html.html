@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jalixon — Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- SPLASH SCREEN -->
+    <div id="splash">
+      <div class="splash-ring">
+        <div class="splash-avatar">JX</div>
+      </div>
+      <div class="splash-name">from Jalixon</div>
+      <div class="splash-bar"></div>
+      <div class="splash-tagline">// Initializing premium experience...</div>
+    </div>
+
+    <!-- NAV -->
+    <nav>
+      <div class="nav-logo">JALIXON</div>
+
+      <div class="nav-links">
+        <a href="#about" data-section="about" onclick="scrollSection('about')">
+          About
+        </a>
+
+        <a
+          href="#skills"
+          data-section="skills"
+          onclick="scrollSection('skills')"
+        >
+          Skills
+        </a>
+
+        <a
+          href="#projects"
+          data-section="projects"
+          onclick="scrollSection('projects')"
+        >
+          Projects
+        </a>
+
+        <a
+          href="#experience"
+          data-section="experience"
+          onclick="scrollSection('experience')"
+        >
+          Experience
+        </a>
+
+        <a
+          href="#contact"
+          data-section="contact"
+          onclick="scrollSection('contact')"
+        >
+          Contact
+        </a>
+      </div>
+    </nav>
+    ```
+
+    <main>
+      <!-- HERO -->
+      <section id="hero">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-glow2"></div>
+
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Available for opportunities
+        </div>
+
+        <h1 class="hero-name">JALI<span class="accent">XON</span></h1>
+
+        <div class="hero-role">
+          <span id="typed-text"></span><span class="cursor"></span>
+        </div>
+
+        <p class="hero-bio">
+          Full-stack engineer building scalable systems at the intersection of
+          performance, design, and intelligence. Crafting digital experiences
+          that leave an impression.
+        </p>
+
+        
+        <div class="hero-actions">
+          <button
+            type="button"
+            class="btn-primary"
+            onclick="scrollSection('projects')"
+          >
+            View Projects →
+          </button>
+
+          <button
+            type="button"
+            class="btn-ghost"
+            onclick="scrollSection('contact')"
+          >
+            Get in Touch
+          </button>
+        </div>
+
+
+        <div class="hero-socials">
+          <a class="social-link" href="#" title="GitHub">GH</a>
+          <a class="social-link" href="#" title="LinkedIn">in</a>
+          <a class="social-link" href="#" title="Twitter/X">X</a>
+          <a class="social-link" href="#" title="Email">@</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">4+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">20+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">12+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">8+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="section-label">01 — About</div>
+        <h2 class="section-title">Engineering <span>philosophy</span></h2>
+
+        <div class="about-grid fade-in">
+          <div class="about-text">
+            <p>
+              I'm <strong style="color: var(--text)">Jalixon</strong> — a
+              full-stack software engineer with a deep passion for architecting
+              systems that are fast, beautiful, and built to scale. I treat
+              every project as an opportunity to engineer excellence from the
+              ground up.
+            </p>
+            <p>
+              My approach blends rigorous engineering discipline with creative
+              UI/UX sensibility. I don't just write code — I architect
+              solutions, design systems, and build digital products that make
+              users stop and say <em style="color: var(--cyan)">"wow."</em>
+            </p>
+            <p>
+              Currently focused on React/Next.js frontends, Node.js APIs,
+              cloud-native architecture, and integrating AI capabilities into
+              everyday software. Always learning. Always building.
+            </p>
+          </div>
+          <div class="about-cards">
+            <div class="about-card">
+              <div class="about-card-icon">⚡</div>
+              <div class="about-card-title">Mission</div>
+              <div class="about-card-desc">
+                Build software that solves real problems elegantly — at scale,
+                on time, with quality.
+              </div>
+            </div>
+            <div class="about-card">
+              <div class="about-card-icon">🔭</div>
+              <div class="about-card-title">Vision</div>
+              <div class="about-card-desc">
+                Create a globally recognized engineering identity, contributing
+                to systems that shape the future of tech.
+              </div>
+            </div>
+            <div class="about-card">
+              <div class="about-card-icon">🧠</div>
+              <div class="about-card-title">Engineering Philosophy</div>
+              <div class="about-card-desc">
+                Clean architecture, SOLID principles, DRY code, and
+                performance-first thinking. Ship fast. Iterate smart.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="section-label">02 — Skills</div>
+        <h2 class="section-title">Technical <span>arsenal</span></h2>
+
+        <div class="skills-grid fade-in">
+          <div class="skill-category">
+            <div class="skill-cat-title">Frontend</div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">React</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="92%"
+                  ></div>
+                </div>
+                <span class="skill-pct">92%</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Next.js</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="88%"
+                  ></div>
+                </div>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">TypeScript</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="85%"
+                  ></div>
+                </div>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Tailwind</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="94%"
+                  ></div>
+                </div>
+                <span class="skill-pct">94%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-cat-title">Backend</div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Node.js</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="90%"
+                  ></div>
+                </div>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Express</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="87%"
+                  ></div>
+                </div>
+                <span class="skill-pct">87%</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">PostgreSQL</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="80%"
+                  ></div>
+                </div>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MongoDB</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="83%"
+                  ></div>
+                </div>
+                <span class="skill-pct">83%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-cat-title">DevOps & Cloud</div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Docker</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="78%"
+                  ></div>
+                </div>
+                <span class="skill-pct">78%</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Git/CI</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="91%"
+                  ></div>
+                </div>
+                <span class="skill-pct">91%</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Vercel</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="88%"
+                  ></div>
+                </div>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Firebase</span>
+                <div class="skill-bar-wrap">
+                  <div
+                    class="skill-bar"
+                    style="width: 0%"
+                    data-width="76%"
+                  ></div>
+                </div>
+                <span class="skill-pct">76%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- TOOLS -->
+      <section id="tools">
+        <div class="section-label">03 — Tools & Technologies</div>
+        <h2 class="section-title">My <span>toolkit</span></h2>
+        <div class="tools-grid fade-in">
+          <div class="tool-card">
+            <div class="tool-icon">⚛️</div>
+            <div class="tool-name">React</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">▲</div>
+            <div class="tool-name">Next.js</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🔷</div>
+            <div class="tool-name">TypeScript</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🐳</div>
+            <div class="tool-name">Docker</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🍃</div>
+            <div class="tool-name">MongoDB</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🐘</div>
+            <div class="tool-name">PostgreSQL</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🟩</div>
+            <div class="tool-name">Node.js</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🎨</div>
+            <div class="tool-name">Tailwind</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🔥</div>
+            <div class="tool-name">Firebase</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🤖</div>
+            <div class="tool-name">AI/LLMs</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🐙</div>
+            <div class="tool-name">GitHub</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">☁️</div>
+            <div class="tool-name">Cloud</div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <div class="section-label">04 — Projects</div>
+        <h2 class="section-title">Featured <span>builds</span></h2>
+        <div class="projects-grid fade-in">
+          <div class="project-card">
+            <div class="project-badge">Live</div>
+            <div class="project-thumb">
+              <div class="project-thumb-label">01</div>
+            </div>
+            <div class="project-body">
+              <div class="project-stack">
+                <span class="stack-tag">Next.js</span>
+                <span class="stack-tag">TypeScript</span>
+                <span class="stack-tag">PostgreSQL</span>
+                <span class="stack-tag">Stripe</span>
+              </div>
+              <div class="project-title">Nexus SaaS Platform</div>
+              <div class="project-desc">
+                Full-stack SaaS with multi-tenant architecture, subscription
+                billing, role-based auth, and a real-time dashboard powered by
+                WebSockets.
+              </div>
+              <div class="project-links">
+                <a class="proj-link">↗ Live Demo</a>
+                <a class="proj-link">⌥ GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb">
+              <div class="project-thumb-label">02</div>
+            </div>
+            <div class="project-body">
+              <div class="project-stack">
+                <span class="stack-tag">React</span>
+                <span class="stack-tag">Node.js</span>
+                <span class="stack-tag">MongoDB</span>
+                <span class="stack-tag">OpenAI</span>
+              </div>
+              <div class="project-title">AI Content Studio</div>
+              <div class="project-desc">
+                AI-powered writing tool with GPT integration, custom prompt
+                engineering, document versioning, and team collaboration
+                features.
+              </div>
+              <div class="project-links">
+                <a class="proj-link">↗ Live Demo</a>
+                <a class="proj-link">⌥ GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-badge">Open Source</div>
+            <div class="project-thumb">
+              <div class="project-thumb-label">03</div>
+            </div>
+            <div class="project-body">
+              <div class="project-stack">
+                <span class="stack-tag">React Native</span>
+                <span class="stack-tag">Firebase</span>
+                <span class="stack-tag">TypeScript</span>
+              </div>
+              <div class="project-title">PocketFinance App</div>
+              <div class="project-desc">
+                Cross-platform mobile finance tracker with biometric auth,
+                spending analytics, budget goals, and intelligent spending
+                insights.
+              </div>
+              <div class="project-links">
+                <a class="proj-link">↗ Live Demo</a>
+                <a class="proj-link">⌥ GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- EXPERIENCE -->
+      <section id="experience">
+        <div class="section-label">05 — Experience</div>
+        <h2 class="section-title">Engineering <span>journey</span></h2>
+        <div class="timeline fade-in">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 — Present</div>
+            <div class="timeline-role">Senior Full-Stack Engineer</div>
+            <div class="timeline-company">// Tech Company · Remote</div>
+            <div class="timeline-desc">
+              Lead engineering on a microservices-based platform serving 50k+
+              users. Architected the frontend component system, mentored 3
+              junior engineers, and reduced API response times by 40%.
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2021 — 2023</div>
+            <div class="timeline-role">Full-Stack Developer</div>
+            <div class="timeline-company">// Digital Agency · Hybrid</div>
+            <div class="timeline-desc">
+              Built and shipped 10+ client projects across e-commerce, fintech,
+              and education verticals. Owned full SDLC from requirements to
+              deployment.
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2020 — 2021</div>
+            <div class="timeline-role">Frontend Developer</div>
+            <div class="timeline-company">// Startup · Remote</div>
+            <div class="timeline-desc">
+              Developed React-based dashboards and consumer-facing applications.
+              Improved Lighthouse performance scores from 60s to 95+ across all
+              products.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- CERTIFICATES -->
+      <section id="certificates">
+        <div class="section-label">06 — Certifications</div>
+        <h2 class="section-title">Verified <span>credentials</span></h2>
+        <div class="certs-grid fade-in">
+          <div class="cert-card">
+            <span class="cert-icon">☁️</span>
+            <div class="cert-name">AWS Solutions Architect Associate</div>
+            <div class="cert-issuer">Amazon Web Services</div>
+            <div class="cert-year">2024</div>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">🔵</span>
+            <div class="cert-name">Meta Frontend Developer Professional</div>
+            <div class="cert-issuer">Meta / Coursera</div>
+            <div class="cert-year">2023</div>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">🟢</span>
+            <div class="cert-name">Node.js Application Developer</div>
+            <div class="cert-issuer">OpenJS Foundation</div>
+            <div class="cert-year">2023</div>
+          </div>
+          <div class="cert-card">
+            <span class="cert-icon">🎓</span>
+            <div class="cert-name">Google UX Design Professional</div>
+            <div class="cert-issuer">Google / Coursera</div>
+            <div class="cert-year">2022</div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- ACHIEVEMENTS -->
+      <section id="achievements">
+        <div class="section-label">07 — Recognition</div>
+        <h2 class="section-title">Awards & <span>achievements</span></h2>
+        <div class="achievements-grid fade-in">
+          <div class="achieve-card">
+            <div class="achieve-icon-wrap">🏆</div>
+            <div>
+              <div class="achieve-title">Hackathon Champion</div>
+              <div class="achieve-desc">
+                // 1st place — National Fintech Hackathon 2023, built a
+                real-time loan risk assessment tool
+              </div>
+            </div>
+          </div>
+          <div class="achieve-card">
+            <div class="achieve-icon-wrap">🌟</div>
+            <div>
+              <div class="achieve-title">Top 100 Developers</div>
+              <div class="achieve-desc">
+                // Recognized in Dev.to Top 100 African Developers under 30 —
+                2024 edition
+              </div>
+            </div>
+          </div>
+          <div class="achieve-card">
+            <div class="achieve-icon-wrap">🎤</div>
+            <div>
+              <div class="achieve-title">Tech Conference Speaker</div>
+              <div class="achieve-desc">
+                // Keynote speaker at GDG DevFest on "Scalable React
+                Architecture at Production Scale"
+              </div>
+            </div>
+          </div>
+          <div class="achieve-card">
+            <div class="achieve-icon-wrap">🚀</div>
+            <div>
+              <div class="achieve-title">Open Source Contributor</div>
+              <div class="achieve-desc">
+                // 200+ contributions, 3 published npm packages with 1,500+
+                monthly downloads
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- TESTIMONIALS -->
+      <section id="testimonials">
+        <div class="section-label">08 — Testimonials</div>
+        <h2 class="section-title">What people <span>say</span></h2>
+        <div class="testimonials-grid fade-in">
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <div class="testi-text">
+              Jalixon architected our entire backend infrastructure from
+              scratch. The quality of their systems thinking is rare — they
+              built something we can scale for the next decade.
+            </div>
+            <div class="testi-author">
+              <div class="testi-avatar">AM</div>
+              <div>
+                <div class="testi-name">Alex Morgan</div>
+                <div class="testi-role-label">// CTO, Nexus Technologies</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <div class="testi-text">
+              The UI they built for us increased our conversion by 34%. Jalixon
+              understands both design and engineering at a level most devs
+              simply don't have.
+            </div>
+            <div class="testi-author">
+              <div class="testi-avatar">SJ</div>
+              <div>
+                <div class="testi-name">Sofia James</div>
+                <div class="testi-role-label">// CEO, LaunchPad Studio</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-quote">"</div>
+            <div class="testi-text">
+              Working with Jalixon felt like having a senior architect and a
+              creative director in one person. Every technical decision was
+              thoughtful, documented, and justified.
+            </div>
+            <div class="testi-author">
+              <div class="testi-avatar">KO</div>
+              <div>
+                <div class="testi-name">Kofi Owusu</div>
+                <div class="testi-role-label">
+                  // Lead Engineer, Finvest Africa
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <div class="section-label">09 — Contact</div>
+        <h2 class="section-title">Let's <span>build</span> something</h2>
+
+        <div class="contact-grid fade-in">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-item-icon">✉</div>
+              <div>
+                <div class="contact-item-label">Email</div>
+                <div class="contact-item-value">hello@jalixon.dev</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">💬</div>
+              <div>
+                <div class="contact-item-label">WhatsApp</div>
+                <div class="contact-item-value">+234 xxx xxx xxxx</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <div class="contact-item-label">Location</div>
+                <div class="contact-item-value">Lagos, Nigeria 🇳🇬</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">🔗</div>
+              <div>
+                <div class="contact-item-label">LinkedIn</div>
+                <div class="contact-item-value">linkedin.com/in/jalixon</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">⌥</div>
+              <div>
+                <div class="contact-item-label">GitHub</div>
+                <div class="contact-item-value">github.com/jalixon</div>
+              </div>
+            </div>
+          </div>
+          <!-- Form -->
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="femail">Email</label>
+
+                <input
+                  type="email"
+                  id="femail"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+
+              <input
+                type="text"
+                id="fsubject"
+                placeholder="What's this about?"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="fmsg">Message</label>
+
+              <textarea
+                id="fmsg"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Send Message →</button>
+          <div class="form-success" id="form-success">
+            ✓ Opening WhatsApp...
+          </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">JALIXON</div>
+      <div class="footer-copy">© 2025 Jalixon. Engineered with precision.</div>
+      <div class="footer-socials">
+        <a class="social-link" href="#">GH</a>
+        <a class="social-link" href="#">in</a>
+        <a class="social-link" href="#">X</a>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
