@@ -214,3 +214,13 @@ ${message}
         });
       });
 
+       // =========================
+      // Auto-Year Update
+      // =========================
+
+      const yearEl = document.getElementById("year");
+
+if (yearEl) {
+  yearEl.textContent = new Date().getFullYear();
+}
+
